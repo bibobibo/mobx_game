@@ -11,7 +11,7 @@ var config = {
   ],
   output: {
     path: path.resolve(__dirname, 'js'),
-    publicPath: "http://" + host + ":" + port + "/brant/",
+    publicPath: "http://" + host + ":" + port + "/",
     filename: 'main.bundle.js'
   },
   module: {
