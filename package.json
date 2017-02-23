@@ -9,6 +9,7 @@
   "author": "bibobibo",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^4.17.4",
     "mobx": "^2.5.1",
     "mobx-react": "^3.5.5",
     "react": "^15.3.1",

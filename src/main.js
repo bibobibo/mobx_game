@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TodoList from "./view/TodoList";
-import observableTodoStore from "./ObservableTodoStore";
+import App from "./view/App";
+import store from "./store";
 
-ReactDOM.render(<TodoList store={ observableTodoStore }/>, document.getElementById('root'));
+ReactDOM.render(<App store={ store }/>, document.getElementById('root'));
